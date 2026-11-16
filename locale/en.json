@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Free Web Search",
+    "description": "Key-less web search for the web_search tool: scrapes the public Bing SERP (RSS first, HTML fallback) and registers itself as the default search provider."
+  }
+}

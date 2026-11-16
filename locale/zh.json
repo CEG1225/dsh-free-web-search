@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "免费联网搜索",
+    "description": "为 web_search 工具提供免密钥的联网搜索：抓取 Bing 公共结果页（优先 RSS，回退 HTML），并把自己注册为默认搜索提供方。"
+  }
+}

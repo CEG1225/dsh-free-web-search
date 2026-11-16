@@ -1,0 +1,12 @@
+# Free web search for this profile: registers a key-less search provider into
+# `ctx.web` and pins the web seam to it, so `web_search` no longer depends on the
+# DeepSeek auxiliary-search endpoint (which needs a valid DEEPSEEK_API_KEY).
+# The anonymous HTTP fetch provider keeps handling `web_fetch`.
+- insert:
+    - id: free-web-search
+      name: '@local/free-web-search'
+
+- id: web
+  config:
+    searchProvider: free-bing
+    fetchProvider: http
